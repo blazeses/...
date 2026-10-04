@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Искусство работы в кадре — мастер-класс факультета журналистики КубГУ</title>
+<!-- Сетка Tilda (файл взят с опубликованного сайта-образца) -->
+<link rel="stylesheet" href="css/tilda-grid-3.0.min.css">
+<!-- Собственные стили проекта -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="allrecords" class="t-records">
+<header class="hero">
+  <div class="frame"><span class="rec"><i></i>REC</span></div>
+  <div class="t-container"><div class="t-col t-col_12">
+  <p class="faculty">Факультет журналистики КубГУ</p>
+  <h1>Искусство работы в кадре</h1>
+  <p class="lead">Мастер-класс по тележурналистике: от идеи до готового сюжета.</p>
+  <div class="btns"><a class="btn main" href="#join">Записаться</a><a class="btn" href="#learn">Чему вы научитесь</a><a class="btn" href="#try">Попробовать в кадре</a></div>
+</div></div></header>
+
+<section id="learn"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Чему вы научитесь</h2>
+  <p class="sub">Освойте основы тележурналистики и создайте собственный видеоматериал. Восемь тем программы:</p>
+  <ul class="cards">
+    <li>Основы тележурналистики</li><li>Визуальная культура</li><li>Репортаж</li><li>Интервью</li>
+    <li>Информационные программы</li><li>Производство телепрограмм</li><li>Спецтелепрограммы</li><li>Научно-популярные и развлекательные программы</li>
+  </ul>
+</div></div></section>
+
+<section id="behind" class="dark"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Что происходит за кадром</h2>
+  <p class="sub">Выберите этап, чтобы узнать, чему он учит.</p>
+  <div class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-t="0">Съёмка</button><button role="tab" aria-selected="false" data-t="1">Интервью</button>
+    <button role="tab" aria-selected="false" data-t="2">Новости</button><button role="tab" aria-selected="false" data-t="3">Монтаж</button>
+  </div>
+  <p id="tabtext" class="tabtext" aria-live="polite"></p>
+</div></div></section>
+
+<section id="try"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Попробуйте себя в кадре</h2>
+  <p class="sub">Представьте, что вы ведущий новостей. Прочитайте новость в камеру.</p>
+  <div class="studio">
+    <video id="cam" autoplay muted playsinline></video>
+    <div class="tele"><p id="news">Сегодня на факультете журналистики прошёл первый мастер-класс по работе в кадре. Участники попробовали себя в роли ведущих и сняли свои первые сюжеты.</p></div>
+    <ul class="tips"><li>Смотрите в объектив</li><li>Говорите чётко</li><li>Держите темп</li><li>Следите за композицией кадра</li></ul>
+    <button class="btn main" id="rec">Начать запись</button>
+    <p id="recmsg" aria-live="polite"></p>
+  </div>
+</div></div></section>
+
+<section id="report" class="dark"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Как рождается репортаж</h2>
+  <ol class="steps">
+    <li>Найдите тему</li><li>Подготовьтесь к съёмке</li><li>Выберите место</li><li>Возьмите интервью</li><li>Отснимите материал</li><li>Смонтируйте</li><li>Покажите результат</li>
+  </ol>
+</div></div></section>
+
+<section id="formats"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Не только новости</h2>
+  <div class="three">
+    <div><h3>Информация</h3><p>Новости и информационные программы.</p></div>
+    <div><h3>Наука</h3><p>Научно-популярные программы.</p></div>
+    <div><h3>Развлечения</h3><p>Развлекательные форматы.</p></div>
+  </div>
+</div></div></section>
+
+<section id="result" class="dark"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Что получится в итоге</h2>
+  <p class="sub">Собственный видеоматериал и понимание, как устроена работа тележурналиста.</p>
+</div></div></section>
+
+<section id="teacher"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Преподаватель</h2>
+  <div class="teacher"><img src="img/teacher.jpg" alt="Фото преподавателя" width="160" height="160"><p><b>[Имя Фамилия]</b><br>[Должность, опыт работы на телевидении]</p></div>
+</div></div></section>
+
+<section id="join"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Условия участия</h2>
+  <ul class="facts"><li><b>30 часов</b> практики и теории</li><li><b>10 часов</b> занятий в неделю</li><li><b>Любой уровень</b> образования</li></ul>
+  <p>Подробный план: <a href="docs/Программа_ИСКУССТВО_РАБОТЫ_В_КАДРЕ_2024.doc">Программа_ИСКУССТВО_РАБОТЫ_В_КАДРЕ_2024.doc</a></p>
+  <a class="btn main" href="#">Записаться на мастер-класс</a>
+</div></div></section>
+
+<section id="faculty" class="dark"><div class="t-container"><div class="t-col t-col_12">
+  <h2>Факультет, где всё это продолжается</h2>
+  <p class="sub">Телестудия, аудитории, студенческие проекты и редакция ждут вас после мастер-класса.</p>
+  <div class="spots"><button data-s="Телестудия: здесь снимают учебные программы и новости.">Телестудия</button><button data-s="Аудитории: лекции и практика по журналистике.">Аудитории</button><button data-s="Студенческие проекты: реальные материалы студентов.">Проекты</button><button data-s="Редакция: практика в работе над выпусками.">Редакция</button></div>
+  <p id="spottext" class="tabtext" aria-live="polite">Нажмите на точку, чтобы узнать больше.</p>
+</div></div></section>
+
+<footer><div class="t-container"><div class="t-col t-col_12"><h2>Ваша история начинается здесь</h2><p>Факультет журналистики КубГУ · [контакты, соцсети, карта]</p></div></div></footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
